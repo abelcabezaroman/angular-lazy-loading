@@ -1,15 +1,13 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { MenuComponent } from "./components/menu/menu.component";
-import { RouterModule } from "@angular/router";
+import { MenuComponent } from './components/menu/menu.component';
+
 
 
 @NgModule({
-  declarations: [MenuComponent],
+  declarations: [],
   imports: [
     CommonModule,
-    RouterModule.forRoot([])
-  ],
-  exports: [MenuComponent]
+  ]
 })
-export class CoreModule {}
+export class CoreModule { }
