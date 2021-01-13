@@ -1,7 +1,8 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { MenuComponent } from "./components/menu/menu.component";
-import { RouterModule } from "@angular/router";
+import { MenuComponent } from './components/menu/menu.component';
+import { RouterModule } from '@angular/router';
+
 
 
 @NgModule({
@@ -12,4 +13,4 @@ import { RouterModule } from "@angular/router";
   ],
   exports: [MenuComponent]
 })
-export class CoreModule {}
+export class CoreModule { }
